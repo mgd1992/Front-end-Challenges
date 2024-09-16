@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #949393;
+  display: flex;
+  justify-content: center;
+  padding: 56px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+hr{
+  border: 2px solid black;
+}
+
+.cv-page{
+  background-color: #fff;
+  font-family: "Cabin", sans-serif;
+  border: 3px solid #4e4e4e;
+  border-radius: 4px;
+  width: 62%;
+  padding: 60px 150px 50px 60px;
+}
+
+p{
+  margin: 0px;
+}
+
+p.sub-t{
+  color: rgb(35, 132, 243);
+  font-weight: 900;
+  margin-bottom: 2px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h3, h4{
+  color: rgb(81, 188, 81);
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.skils, .education, .experience p{
+  line-height: 23px;
+}
+
+ul{
+  font-size: 16px;
+  line-height: 22px;
+}
+
+i{
+  font-size: 25px;
+  margin-right: 10px;
+}
